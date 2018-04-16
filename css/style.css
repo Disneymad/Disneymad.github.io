@@ -7,7 +7,7 @@ body{
 
 .headimage{
     background-image: url(/img/repeatforpattern.jpg);
-    height: 700px;
+    height: 550px;
 }
 
 .header{
@@ -231,7 +231,6 @@ a:hover{
 .aboutbody{
     height: 900px;
     background-image: url(/img/pattern4.jpg);
-/*    width: 100%;*/
 }
 
 .about_collections{
