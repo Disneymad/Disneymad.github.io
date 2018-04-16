@@ -1,8 +1,323 @@
-.container{
-    margin-top: 20px;
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.headimage{
+    background-image: url(/img/repeatforpattern.jpg);
+    height: 550px;
+}
+
+.header{
+    height: 160px;
+}
+
+.doodle{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 5rem;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border: 10px solid black;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+.menu_collections{
+    float: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 5px solid black;
+    height: 200px;
+    width: 408px;
+    text-align: center;
+    background-color: #b9e8e1;
+}
+
+.menu_recent{
+    float: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    height: 200px;
+    width: 405px;
+    text-align: center;
+    background-image: url(/img/recentimage.jpg);
+}
+
+.menu_about{
+    float: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    border-right: 10px solid black;
+    height: 200px;
+    width: 408px;
+    text-align: center;
+    background-color: #f8b7d3;
+}
+
+.homepagecontent a:hover{
+    color: #ceaed4;
+    text-decoration: none;
+}
+
+.recentheader a:hover{
+    color: #ceaed4;
+    text-decoration: none;
+}
+
+.aboutheader a:hover{
+    color: #f8b7d3;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b7ebf5;
+    text-decoration: none;
+}
+
+.recentbody{
+    background-image: url(/img/repeatpattern2.jpg);
+    height: 1400px;
+}
+
+.recent_collections{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: #b9e8e1;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.recent_menu{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: white;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.recent_about{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: #f8b7d3;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.recentbox{
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.footer{
+    height: 100px;
+    width: 1250px;
+    border: 10px solid black;
+    background-color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    text-align: center;
+    float: left;
+}
+
+.backtotop{
+    float: right;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding-top: 30px;
+    padding-right: 20px;
+    
+}
+
+.collectionsbody{
+    height: 2000px;
+    background-image: url(/img/pattern3.jpg)
+}
+
+.collections_recent{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: #ceaed4;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.collections_menu{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: white;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.collections_about{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: #f8b7d3;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.collectionbox{
+    height: 400px;
+    width: 1000px;
+    border: 10px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+
+.aboutbody{
+    height: 700px;
+    background-image: url(/img/pattern4.jpg);
+}
+
+.about_collections{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: #b9e8e1;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about_menu{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: white;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about_recent{
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 10px solid black;
+    background-color: #ceaed4;
+    margin-left: 75px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.abouttext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    padding: 20px;
+    float: left;
+    border: 10px solid black;
+    background-color: #b7ebf5;
     width: 900px;
-/*    background-color: red;*/
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.collection_title{
+    height: 50px;
+    width: 900px;
+    border: 10px solid black;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.inkbody{
+    height: 3200px;
+    background-image: url(/img/pattern5.jpg);
+}
+
+.inkbox{
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.fairytalebody{
+    height: 3400px;
+    background-image: url(/img/pattern5.jpg);
+}
+
+.fairytalebox{
+    height: 600px;
+    width: 400px;
+    border: 10px solid black;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.pencilbody{
+    height: 4000px;
+    background-image: url(/img/pattern5.jpg);
 }
 
