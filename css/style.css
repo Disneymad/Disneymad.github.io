@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+body{
+    margin: 0;
+}
+
 .headimage{
     background-image: url(/img/repeatforpattern.jpg);
-    height: 550px;
+    height: 700px;
 }
 
 .header{
@@ -20,6 +24,7 @@
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 .menu_collections{
@@ -67,6 +72,12 @@
 .homepagecontent a:hover{
     color: #ceaed4;
     text-decoration: none;
+}
+
+.homepagecontent{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .recentheader a:hover{
@@ -145,7 +156,7 @@ a:hover{
 
 .footer{
     height: 100px;
-    width: 1250px;
+    width: 100%;
     border: 10px solid black;
     background-color: white;
     font-family: 'Gloria Hallelujah', cursive;
@@ -218,8 +229,9 @@ a:hover{
 }
 
 .aboutbody{
-    height: 700px;
+    height: 900px;
     background-image: url(/img/pattern4.jpg);
+/*    width: 100%;*/
 }
 
 .about_collections{
@@ -321,3 +333,8 @@ a:hover{
     background-image: url(/img/pattern5.jpg);
 }
 
+.container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
